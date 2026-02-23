@@ -1,5 +1,3 @@
-# Bayesian-Kelly-Criterion-with-Parameter-Uncertainty
-
 Bayesian Kelly Criterion — Empirical Validation on ES Futures
 =============================================================
 Replicates the experimental framework of Sukhov (2026) on real market data.
