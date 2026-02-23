@@ -16,6 +16,6 @@ Position sizing methods compared:
   (3) Quarter Kelly — f_Full / 4
   (4) Bayesian Kelly — Sukhov (2026), eq. (13), κ = 30, α₀ = β₀ = 1
 
-Reference: Sukhov, S. (2026). Bayesian Kelly Criterion with Parameter
-           Uncertainty: A Robust Framework for Position Sizing Under
-           Estimation Risk. Working Paper.
+Sukhov, S. (2026). Bayesian Kelly Criterion with Parameter
+Uncertainty: A Robust Framework for Position Sizing Under
+Estimation Risk. Working Paper.
