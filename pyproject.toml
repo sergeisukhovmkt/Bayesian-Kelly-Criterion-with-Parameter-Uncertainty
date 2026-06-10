@@ -50,8 +50,8 @@ full = [
 ]
 
 [project.urls]
-"Paper (SSRN)" = "https://ssrn.com/abstract=6542019"
-"Source Code"  = "https://github.com/ssukhov/bayesian-kelly"
+"Paper (SSRN)" = "https://ssrn.com/abstract=6195358"
+"Source Code"  = "https://github.com/sergeisukhovmkt/Bayesian-Kelly-Criterion-with-Parameter-Uncertainty"
 
 [project.scripts]
 bayesian-kelly-mc = "scripts.run_monte_carlo:main"

@@ -4,9 +4,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/SSRN-6542019-orange)](https://ssrn.com/abstract=6542019)
+[![Paper](https://img.shields.io/badge/SSRN-6542019-orange)](https://ssrn.com/abstract=6195358)
 
-> Sukhov, S. (2026). *Bayesian Kelly Criterion with Parameter Uncertainty: A Robust Framework for Position Sizing Under Estimation Risk.* Working Paper. [SSRN 6542019](https://ssrn.com/abstract=6542019)
+> Sukhov, S. (2026). *Bayesian Kelly Criterion with Parameter Uncertainty: A Robust Framework for Position Sizing Under Estimation Risk.* Working Paper. [SSRN 6542019](https://ssrn.com/abstract=6195358)
 
 ---
 
