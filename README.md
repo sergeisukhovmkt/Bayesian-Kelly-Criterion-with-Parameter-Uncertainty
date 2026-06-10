@@ -290,8 +290,8 @@ In stable, mature, high-frequency environments with a well-characterised edge, H
   title  = {Bayesian Kelly Criterion with Parameter Uncertainty:
              A Robust Framework for Position Sizing Under Estimation Risk},
   year   = {2026},
-  note   = {Working Paper. SSRN 6542019},
-  url    = {https://ssrn.com/abstract=6542019},
+  note   = {Working Paper. SSRN 6195358},
+  url    = {https://ssrn.com/abstract=6195358},
 }
 ```
 
