@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "bayesian-kelly"
+version = "1.0.0"
+description = "Bayesian Kelly Criterion with Parameter Uncertainty"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Sergei Sukhov", email = "s.sukhov@mmrls.com" },
+]
+keywords = [
+    "kelly criterion",
+    "bayesian statistics",
+    "position sizing",
+    "risk management",
+    "quantitative finance",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "scipy>=1.11",
+]
+full = [
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "jupyter>=1.0",
+]
+
+[project.urls]
+"Paper (SSRN)" = "https://ssrn.com/abstract=6542019"
+"Source Code"  = "https://github.com/ssukhov/bayesian-kelly"
+
+[project.scripts]
+bayesian-kelly-mc = "scripts.run_monte_carlo:main"
+bayesian-kelly-es = "scripts.run_empirical:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["bayesian_kelly*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts   = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["bayesian_kelly"]
+omit   = ["tests/*", "scripts/*"]

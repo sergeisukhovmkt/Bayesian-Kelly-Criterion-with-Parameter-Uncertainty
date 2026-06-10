@@ -1,0 +1,12 @@
+# Core dependencies
+numpy>=1.24
+matplotlib>=3.7
+
+# Optional — needed for KDE in plotting.plot_monte_carlo_distributions
+# and for the full Jupyter notebook
+scipy>=1.11
+pandas>=2.0
+
+# Development / testing
+pytest>=7.4
+pytest-cov>=4.1
