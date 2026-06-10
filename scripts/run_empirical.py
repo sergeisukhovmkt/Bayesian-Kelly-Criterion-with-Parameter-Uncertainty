@@ -11,7 +11,7 @@ Requires
 Usage
 -----
     python scripts/run_empirical.py
-    python scripts/run_empirical.py --data path/to/data.csv --output results/
+    python scripts/run_empirical.py --data Bayesian-Kelly-Criterion-with-Parameter-Uncertainty\scripts\data\ES_2000_2019.csv --output results/
 """
 
 from __future__ import annotations
