@@ -56,7 +56,7 @@ Strategy: Donchian 20-day channel breakout, long+short, stop = 1.5×ATR(14), tar
 
 Bayesian Kelly achieves the highest Calmar ratio across all variants and produces structurally shallower drawdowns, particularly during the cold-start phase (first 50 trades).
 
-![Empirical validation figure](results/fig1_empirical_validation.png)
+![Empirical validation figure](scripts/results/fig1_empirical_validation.png)
 
 ---
 
